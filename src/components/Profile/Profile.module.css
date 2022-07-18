@@ -1,0 +1,26 @@
+.profile {
+  flex: 1;
+  height: 75%;
+  background-color: var(--blue);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+.profile__img {
+  width: 5rem;
+}
+.profile__text {
+  color: lightgray;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.profile__text span {
+  display: block;
+  font-size: 1.8rem;
+  color: white;
+}
+.profile__heading {
+  color: white;
+}

@@ -1,0 +1,16 @@
+.timeContainer {
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  color: var(--desaturatedBlue);
+}
+.time {
+  cursor: pointer;
+  all: unset;
+  cursor: pointer;
+}
+.time:hover {
+  color: white;
+  transition: color 0.5s;
+}

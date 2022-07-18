@@ -20,6 +20,10 @@ Use a better box model (opinionated).
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size (opinionated).
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   line-height: 1.15; /* 1 */
@@ -278,4 +282,11 @@ html {
 }
 body {
   font-size: 1.6rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
 }

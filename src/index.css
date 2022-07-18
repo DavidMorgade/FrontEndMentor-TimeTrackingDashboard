@@ -1,1 +1,6 @@
 @import './styles/Normalize.css';
+@import './styles/Variables.css';
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
