@@ -1,7 +1,6 @@
 import styles from './TimeSelector.module.css';
 
 const TimeSelector = (props) => {
-  console.log(props.active);
   return (
     <div className={styles.timeContainer}>
       <button

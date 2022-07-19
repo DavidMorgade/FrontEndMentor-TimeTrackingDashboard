@@ -30,6 +30,7 @@ const App = () => {
       {data.map((act, i) => {
         return (
           <Card
+            grid={i}
             bgColor={act.title.replace(/ /g, '')}
             key={i}
             bgImg={imgArr[i]}

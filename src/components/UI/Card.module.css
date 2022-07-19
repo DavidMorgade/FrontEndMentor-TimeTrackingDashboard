@@ -1,16 +1,18 @@
 .card {
   display: flex;
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: var(--darkBlue);
-  height: 30rem;
   border-radius: 1rem;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
+  padding-top: 1rem;
 }
-.card:last-of-type {
-  margin-bottom: 5rem;
+.cardCont {
+  width: 90%;
+  justify-self: center;
 }
 .card:hover {
   filter: brightness(170%);
@@ -22,6 +24,7 @@
   align-items: flex-end;
   justify-content: space-evenly;
   padding-right: 2rem;
+  padding-bottom: 2rem;
 }
 .card__img {
   padding-bottom: 3rem;
@@ -42,5 +45,26 @@
 }
 .card__week {
   color: var(--desaturatedBlue);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+@media (min-width: 1440px) {
+  .card {
+    height: 100%;
+  }
+  .cardCont {
+    align-self: flex-start;
+    height: 70%;
+  }
+  .card__img {
+    padding-bottom: 5.5rem;
+  }
+  .card__time {
+    font-size: 4rem;
+  }
+  .card__week {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    font-size: 1.5rem;
+  }
 }

@@ -1,0 +1,24 @@
+.card__0 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+.card__1 {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+.card__2 {
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+}
+.card__3 {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+.card__4 {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+}
+.card__5 {
+  grid-row: 3 / 4;
+  grid-column: 4 / 5;
+}

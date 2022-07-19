@@ -2,10 +2,11 @@ import { Fragment } from 'react';
 import elipsis from '../../images/icon-ellipsis.svg';
 import BackgroundImg from './BackgroundImg';
 import styles from './Card.module.css';
+import Grid from '../../styles/Grid.css';
 
 const Card = (props) => {
   return (
-    <Fragment>
+    <div className={`${styles.cardCont} card__${props.grid}`}>
       <BackgroundImg bgImg={props.bgImg} bgColor={props.bgColor} />
       <div className={styles.card}>
         <div className={styles.card__cont1}>
@@ -19,7 +20,7 @@ const Card = (props) => {
           </p>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

@@ -4,6 +4,7 @@
   justify-content: space-around;
   padding: 2rem;
   color: var(--desaturatedBlue);
+  border-radius: 1rem;
 }
 .time {
   cursor: pointer;
@@ -13,4 +14,11 @@
 .time:hover {
   color: white;
   transition: color 0.5s;
+}
+@media (min-width: 1440px) {
+  .timeContainer {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3.1rem 2.5rem;
+  }
 }
